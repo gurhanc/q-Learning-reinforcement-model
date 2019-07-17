@@ -8,7 +8,7 @@ sys.setrecursionlimit(10000)
 
 """
 Some info about problem setup:
-  -we assume 16 grid cells (3 x 3 matrix)
+  -we assume n grid cells (n x n matrix)
   -impossible moves will have -1 reward
   -possible moves but no reward implies reward of 0
   -each episode ends with reaching reward
